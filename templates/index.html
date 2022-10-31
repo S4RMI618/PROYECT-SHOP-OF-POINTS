@@ -7,33 +7,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <!-- BOOTSTRAP -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <link rel="stylesheet" href="/static/css/bootstrap.min.css"></LInk>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+    </LInk>
     <!-- CUSTOM CSS-->
     <link type="text/css" rel="stylesheet" href="/static/css/estilos.css">
 </head>
 
-<body>
-    <div class="container">
+<body class="bgcustom">
+    <div class="container-fluid mt-5 p-lg-5 p-md-4 col-lg-10 offset-lg-1 contenedor">
         <div class="row">
-            <div id="login" class="col-lg-4 offset-lg-4 col-md-6 offset-md-3
-                col-12">
-                <h2 class="text-center">Shop of Points</h2>
+            <div id="login" class="col-lg-4 offset-lg-4 col-md-6 offset-md-3">
+                <h2 class="text-center tamaño-texto">Shop of Points</h2>
                 <h2></h2>
                 <form>
-                    <img class="img-thumbnail col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-8 offset-sm-2 col-xs-6 offset-xs-3" src="/img/logo-usuario.png" />
+                    <img class="img-fluid col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-8 offset-sm-2 col-xs-6 offset-xs-3"
+                        id="info" src="/img/logo-usuario.png" />
                     <div class="form-group mx-lg-2">
                         <label for="usuario">Usuario</label>
                         <input id="usuario" name="usuario" class="form-control" type="text"
                             placeholder="Ingrese su usuario">
-                    </div>  
+                    </div>
                     <div class="form-group mx-lg-2">
                         <label for="clave">Contraseña</label>
                         <input id="clave" name="clave" class="form-control" type="password"
                             placeholder="Ingrese su Contraseña">
                     </div>
                     <br>
-                    <button type="submit" class="btn btn-success col-12">Iniciar Sesion</button>
+                    <button type="submit" class="btn btn-success col-12">Iniciar Sesión</button>
                 </form>
             </div>
         </div>
